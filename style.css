@@ -1,0 +1,44 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Ephesis&family=Lato:wght@300&family=Nunito:wght@200&family=Pacifico&display=swap');
+html {
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+    scroll-padding-top: 10rem;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0);
+}
+html::-webkit-scrollbar-thumb {
+  border-radius: 20px; 
+  background:linear-gradient(to top,#008E22, #008E22 50%);
+}
+body{
+  margin: none;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color:#000000c5;
+  background-image: url('./fundoRiscos.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 4%;
+}
+img{
+  width: 250px;
+  height: auto;
+}
+h1{
+  font-size: 4rem;
+  font-family: 'Dancing Script';
+/*font-family: 'Ephesis';
+  font-family: 'Lato';
+  font-family: 'Nunito';
+  font-family: 'Pacifico';
+*/  
+}
+hr{
+  margin-top: 4%;
+  width: 80%;
+  position: center;
+}
